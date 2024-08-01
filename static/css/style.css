@@ -1,0 +1,89 @@
+body {margin:0;}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.navbar .active {
+  background-color: #04AA6D;
+}
+
+.navbar .name {
+  float: left;
+}
+
+.introduction {
+   background-image: url(../images/background_introduction.jpg);
+    background-size: cover;
+    height: 20em;
+    padding-bottom: 20%;
+}
+
+.personapic {
+  width: 20%;
+  aspect-ratio: 1/1;
+  margin-top: 10%;
+  margin-left: 15%;
+  border-radius: 50%;
+  float: left;
+}
+
+.introduction h1 {
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+    padding-right: 30%;
+}
+
+.introduction h2 {
+    color: white;
+    text-align: center;
+  }
+
+.Highlight {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.Highlight h1 {
+    color: black;
+    text-align: center;
+}
+
+.Highlight h2 {
+    color: black;
+    text-align: center;
+}
+
+.Highlight img {
+    width: 30%;
+    margin-left: 15%;
+    float: left;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
