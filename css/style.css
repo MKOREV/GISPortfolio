@@ -52,14 +52,14 @@ body {margin:0;}
 }
 
 .introduction h1 {
-  color: white;
+  color: #0d0d0d;
   text-align: center;
   padding-top: 10%;
     padding-right: 30%;
 }
 
 .introduction h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
@@ -87,3 +87,5 @@ body {margin:0;}
     padding-right: 5%;
     padding-bottom: 1%;
 }
+
+
