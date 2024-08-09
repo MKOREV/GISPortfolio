@@ -23,6 +23,23 @@ body {margin:0;}
   text-decoration: none;
 }
 
+/* style voor language switch */
+.navbar img {
+  width: 1.5em;
+  float: left;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.navbar .lang {
+  font-weight: bold; 
+  padding-bottom: 2.4em; /* zorgen dat hij tegen de rand aanloopt */
+}
+.navbar .lang p {
+  font-weight: bold;
+  float: left;
+}
+
 .navbar li a:hover:not(.active) {
   background-color: #111;
 }
@@ -96,7 +113,6 @@ body {margin:0;}
     padding-right: 5%;
     padding-bottom: 1%;
 }
-
 
 .resume {
     text-align: center;
